@@ -1,9 +1,10 @@
 import Reveal from "./reveal";
+import type { ReactElement } from "react";
 
 type ServiceCard = {
   title: string;
   description: string;
-  icon: JSX.Element;
+  icon: ReactElement;
 };
 
 const SERVICES: ServiceCard[] = [
