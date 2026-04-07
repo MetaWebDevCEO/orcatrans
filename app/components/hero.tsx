@@ -27,9 +27,15 @@ export default function Hero() {
 
         <Reveal delayMs={220} className="w-full">
           <p className="mx-auto mt-6 max-w-2xl text-pretty text-lg leading-8 text-white/85">
-            Especialistas en transporte de carga pesada y especializada en todo México. Seguridad,
-            puntualidad y eficiencia en cada envío, cuidando los detalles desde el punto de origen
-            hasta el destino final.
+            Tu aliado en transporte de carga{" "}
+            <span className="inline-grid h-[1.2em] overflow-hidden align-bottom">
+              <span className="animate-wordcycle grid leading-[1.2]">
+                <span className="text-white">especializada</span>
+                <span className="text-white">sobredimensionada</span>
+                <span className="text-white">regulada</span>
+              </span>
+            </span>{" "}
+            en todo México, con seguridad, puntualidad y atención operativa.
           </p>
         </Reveal>
 
